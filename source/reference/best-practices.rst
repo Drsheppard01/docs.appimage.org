@@ -71,7 +71,7 @@ The trick is to search for :code:`/usr` in the binary and replace it by the same
 
 This command is also available as part of the bash function collection at `AppImage/pkg2appimage/functions.sh#L79`_. For the binary-patched application to work, you need to change to the :code:`usr/` directory inside the application directory before you launch the application.
 
-.. _AppImage/pkg2appimage/functions.sh\#L79: https://github.com/AppImageCommunity/AppImageUpdate/blob/9249a99e653272416c8ee8f42cecdde12573ba3e/functions.sh#L79
+.. _AppImage/pkg2appimage/functions.sh\#L79: https://github.com/AppImageCommunity/pkg2appimage/blob/9249a99e653272416c8ee8f42cecdde12573ba3e/functions.sh#L79
 
 
 .. _ref-binaries-compiled-on-old-system:
@@ -91,7 +91,7 @@ then the binary is compiled on a newer system than the one you are trying to run
 
 When producing AppImages for the Subsurface project, we have had very good results by using **CentOS 7**, which is the oldest still-supported Linux distribution at the time of writing. This distribution is not too recent. However, there are still the most recent Qt and modern compilers available in the EPEL_ and devtools-2_ repositories (the community equivalent of the Red Hat Developer Toolset 2). Binaries built on this distribution run on nearly any distribution, including **Debian oldstable**.
 
-Be sure to check https://github.com/AppImageCommunity/AppImageUpdate, this is how I build and host my AppImages and the build systems to produce them in the cloud using travis-ci, docker, docker-hub, and bintray. Especially check the recipes for Subsurface and Scribus.
+Be sure to check https://github.com/AppImageCommunity/pkg2appimage, this is how I build and host my AppImages and the build systems to produce them in the cloud using travis-ci, docker, docker-hub, and bintray. Especially check the recipes for Subsurface and Scribus.
 
 See https://github.com/AppImage/AppImageKit/wiki/Docker-Hub-Travis-CI-Workflow for a description on how to set up a workflow involving your GitHub repository, Docker Hub, and Travis CI for a fully automated continuous build workflow.
 
