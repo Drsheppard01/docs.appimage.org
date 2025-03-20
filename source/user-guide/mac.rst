@@ -38,7 +38,7 @@ should help macOS to Linux switchers to "get" AppImage concepts quickly.
 +---------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------+
 
 
-.. _AppImageUpdate: https://github.com/AppImage/AppImageUpdate
+.. _AppImageUpdate: https://github.com/AppImageCommunity/AppImageUpdate
 .. _AppImageHub: https://github.com/appimage/appimage.github.io
 .. _Sparkle Framework: https://sparkle-project.org/
 .. _update information: https://github.com/AppImage/AppImageSpec/blob/master/draft.md#update-information

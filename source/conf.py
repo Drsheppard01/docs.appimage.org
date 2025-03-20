@@ -4,7 +4,7 @@
 #
 # This file does only contain a selection of the most common options. For a
 # full list see the documentation:
-# http://www.sphinx-doc.org/en/master/config
+# https://www.sphinx-doc.org/en/master/usage/configuration.html
 
 # -- Path setup --------------------------------------------------------------
 
@@ -22,8 +22,8 @@ import os
 # -- Project information -----------------------------------------------------
 
 project = 'AppImage'
-copyright = '2018-2022, The AppImage project'
-author = 'The AppImage project and its contributors'
+copyright = '2018-2025, The AppImage project'
+author = 'The AppImage project and contributors'
 
 # The short X.Y version
 version = ''

@@ -44,7 +44,7 @@ For `Electron`_ based applications, a tool called electron-builder_ can be used 
 With electron-builder, making AppImages is as simple as defining ``AppImage`` as a target for Linux (default in the latest version of electron-builder). This should yield usable results for most applications.
 
 .. seealso::
-   More information can be found in the `documentation on AppImage <https://www.electron.build/configuration/appimage.html>`__ and `the documentation on distributable formats <https://www.electron.build/index.html#pack-only-in-a-distributable-format>`__ in the `electron-builder manual <https://www.electron.build>`__.
+   More information can be found in the `documentation on AppImage <https://www.electron.build/appimage>`__ and `the documentation on distributable formats <https://www.electron.build/index.html#pack-only-in-a-distributable-format>`__ in the `electron-builder manual <https://www.electron.build>`__.
 
    There are a lot of examples on GitHub that can be found using the `GitHub search <https://github.com/search?utf8=%E2%9C%93&q=electron-builder+linux+target+appimage&type=Code&ref=searchresults>`__.
 
@@ -82,7 +82,7 @@ including those made using: C/C++, Python, and Java.
 This tool removes the limitations of requiring an *old system* to compile the binaries. It can be used to
 pack an application from sources or to turn an existing Debian package into an AppImage.
 
-For more information about appimage-builder please visit: https://appimage-builder.readthedocs.io
+For more information about appimage-builder please visit: https://appimage-builder.readthedocs.io/en/latest/
 
 
 .. _sec-create-appdir-manually:

@@ -124,7 +124,7 @@ First of all, add the AppImageUpdate repository as a submodule.
 
 .. code-block:: shell
 
-    $ git submodule add https://github.com/AppImage/AppImageUpdate lib/AppImageUpdate
+    $ git submodule add https://github.com/AppImageCommunity/AppImageUpdate lib/AppImageUpdate
 
 
 You will have to initialize your submodule. AppImageUpdate pulls in some dependencies as well. Therefore, anyone using your repository will have to run the following command after cloning (unless they called :code:`git clone --recursive`):
@@ -327,7 +327,7 @@ As you might not be interested in this feature, and probably don't trust on remo
     Updater updater("my.AppImage", true);
 
 
-Now, the updater will perform the update and move the new file to the original file's location after successfully verifying the file integrity (and, as soon as it is implemented, validating the file's signature, see `the related issue on GitHub <https://github.com/AppImage/AppImageUpdate/issues/16>`__).
+Now, the updater will perform the update and move the new file to the original file's location after successfully verifying the file integrity (and, as soon as it is implemented, validating the file's signature, see `the related issue on GitHub <https://github.com/AppImageCommunity/AppImageUpdate/issues/16>`__).
 
 .. note::
 

@@ -1,4 +1,4 @@
-Copyright 2018-2020 AppImage team and contributors.
+Copyright 2018-2025 AppImage team and contributors.
 
 The contents of these docs, e.g., the `.rst` files, are licensed under the terms of the CC-By 4.0 Intl. See CONTENT_LICENSE.txt for more information.
 

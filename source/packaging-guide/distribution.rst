@@ -135,7 +135,7 @@ As a format, AppImage is designed in a way that does not impose restrictions on 
 
 .. _AppImage ecosystem: https://github.com/AppImage/AppImageKit/wiki/Ecosystem
 .. _oldest still-supported Ubuntu LTS release: https://www.ubuntu.com/info/release-end-of-life
-.. _appdir-lint.sh: https://github.com/AppImage/pkg2appimage/blob/master/appdir-lint.sh
+.. _appdir-lint.sh: https://github.com/AppImageCommunity/AppImageUpdate/blob/master/appdir-lint.sh
 .. _AppStream metainfo file: https://people.freedesktop.org/~hughsient/appdata/
 
 

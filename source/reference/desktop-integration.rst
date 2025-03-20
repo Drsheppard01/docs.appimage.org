@@ -16,7 +16,7 @@ A central component of the Linux desktop, so-called *desktop entries* (or, collo
 
 The FreeDesktop_ project maintains the so-called `Desktop Entry Specification`_. Desktop Entry files are `INI <https://en.wikipedia.org/wiki/INI_file>`__-style text documents containing key-value pairs, one per line. The file is structured in multiple sections, most notably the :code:`[Desktop Entry]`, where the main information goes into. There's a set of mandatory and optional keys to be set in these documents, and there may be additional sections.
 
-.. _FreeDesktop: https://www.freedesktop.org/
+.. _FreeDesktop: https://www.freedesktop.org/wiki/
 .. _Desktop Entry Specification: https://specifications.freedesktop.org/desktop-entry-spec/latest/
 
 
